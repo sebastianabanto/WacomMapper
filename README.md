@@ -1,5 +1,13 @@
 # WacomMapper
 
+[![Version](https://img.shields.io/github/v/tag/sebastianabanto/WacomMapper?label=version)](https://github.com/sebastianabanto/WacomMapper/releases)
+![Platform](https://img.shields.io/badge/platform-Android-3DDC84?logo=android&logoColor=white)
+![Built with Kotlin](https://img.shields.io/badge/built%20with-Kotlin-7F52FF?logo=kotlin&logoColor=white)
+![UI](https://img.shields.io/badge/UI-Jetpack%20Compose-4285F4?logo=jetpackcompose&logoColor=white)
+![Input](https://img.shields.io/badge/input-USB%20HID%20%2B%20Shizuku-2EA44F)
+[![License: MIT](https://img.shields.io/github/license/sebastianabanto/WacomMapper)](LICENSE)
+![Last commit](https://img.shields.io/github/last-commit/sebastianabanto/WacomMapper)
+
 ![WacomMapper app icon](app/src/main/res/drawable-nodpi/wacom_mapper_icon.png)
 
 **WacomMapper turns a Wacom One by Wacom CTL-472 USB tablet into a mapped Android stylus.** It reads the tablet's USB HID reports, maps its pen coordinates to the Android display, and forwards stylus events system-wide through Shizuku. It is a Kotlin and Jetpack Compose Android app, physically validated with a Samsung Galaxy Tab S7 in landscape orientation.
