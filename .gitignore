@@ -1,0 +1,34 @@
+# Android Studio / local machine state
+.idea/
+local.properties
+*.iml
+.DS_Store
+Thumbs.db
+
+# Build outputs and Gradle/Kotlin caches
+.gradle/
+.gradle-user/
+.kotlin/
+**/build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Local ADB credentials/configuration
+.android-adb/
+
+# Signing material and local secrets
+*.jks
+*.keystore
+*.p12
+*.pem
+.env
+.env.*
+
+# Local diagnostics and experimental exports
+*.log
+/wacom_*.txt
+
+# Project-local agent notes and private development history
+/AGENTS.md
+/progress.md
